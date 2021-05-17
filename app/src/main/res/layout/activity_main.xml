@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/oscuro"
+    android:paddingHorizontal="15dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_reel_app"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/iniciar_sesion"
+        android:textColor="@color/white"
+        android:textSize="@dimen/encabezado" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/nombre_usuario"
+        android:textColor="@color/white"
+        android:textSize="@dimen/subtitulo"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="8dp"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/campo_nombre_usuario"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/olvidaste_nombre_usuario"
+        android:textColor="@color/white"
+        android:textSize="@dimen/texto_chico"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/contrasena"
+        android:textColor="@color/white"
+        android:textSize="@dimen/subtitulo"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="8dp"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/campo_contrasena"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/olvidaste_contrasena"
+        android:textColor="@color/white"
+        android:textSize="@dimen/texto_chico"/>
+
+    <Button
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ingresar"
+        android:textColor="@color/oscuro"
+        android:fontFamily="@font/roboto_bold"
+        android:id="@+id/boton_ingresar"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/registrarse"
+        android:textColor="@color/oscuro"
+        android:fontFamily="@font/roboto_bold"
+        android:id="@+id/boton_registrarse"
+        android:background="@drawable/rounded_button"/>
+</LinearLayout>

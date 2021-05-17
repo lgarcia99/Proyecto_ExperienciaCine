@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="mx.itson.reel_app.ui.inicio.InicioFragment"
+        android:label="@string/inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_cartelera"
+        android:name="mx.itson.reel_app.ui.cartelera.CarteleraFragment"
+        android:label="@string/cartelera"
+        tools:layout="@layout/fragment_cartelera" />
+
+    <fragment
+        android:id="@+id/nav_estrenos"
+        android:name="mx.itson.reel_app.ui.estrenos.EstrenosFragment"
+        android:label="@string/estrenos"
+        tools:layout="@layout/fragment_estrenos" />
+
+    <fragment
+        android:id="@+id/nav_cines"
+        android:name="mx.itson.reel_app.ui.cines.CinesFragment"
+        android:label="@string/cines"
+        tools:layout="@layout/fragment_cines" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="mx.itson.reel_app.ui.perfil.PerfilFragment"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil" />
+</navigation>

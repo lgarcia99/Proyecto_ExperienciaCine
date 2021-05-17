@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Reel App</string>
+
+    <string name="iniciar_sesion">Inicia Sesión</string>
+    <string name="nombre_usuario">Nombre de Usuario</string>
+    <string name="olvidaste_nombre_usuario">¿Olvidaste tu Nombre de Usuario?</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="olvidaste_contrasena">¿Olvidaste tu contraseña?</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="email">E-mail</string>
+    <string name="enviar">Enviar</string>
+    <string name="calificacion_media_usuarios">Calificacion Media de los Usuarios</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="calificaciones">Calificaciones</string>
+
+    <!-- Olvidé mi nombre de usuario -->
+    <string name="olvide_nombre_usuario">Olvidé mi Nombre de Usuario</string>
+    <string name="texto_recuperacion_nombre_usuario">Enviaremos un link a tu correo para que puedas recuperar tu nombre de usuario</string>
+
+    <!-- Olvidé mi nombre de usuario -->
+    <string name="olvide_contrasena">Olvidé mi Contraseña</string>
+    <string name="texto_recuperacion_contrasena">Enviaremos un link a tu correo para que puedas recuperar tu contraseña</string>
+
+    <!-- Regístrate -->
+    <string name="registrate">Regístrate</string>
+    <string name="repetir_contrasena">Repetir Contraseña</string>
+
+    <!-- Pestañas -->
+    <string name="inicio">Inicio</string>
+    <string name="cartelera">Cartelera</string>
+    <string name="estrenos">Estrenos</string>
+    <string name="cines">Cines</string>
+    <string name="perfil">Perfil</string>
+
+    <!-- Pantalla de Inicio -->
+    <string name="ubicacion">Ubicación no reconocida</string>
+    <string name="promociones_cerca_de_ti">Promociones cerca de ti</string>
+
+    <!-- Pantalla de Cartelera -->
+
+    <!-- Pantalla de Estrenos -->
+    <string name="proximos_estrenos">Próximos Estrenos</string>
+
+    <!-- Pantalla de Cines -->
+    <string name="ver_calificaciones">Ver Calificaciones</string>
+    <string name="menu">Menú</string>
+    <string name="ver_mapa">Ver Mapa</string>
+
+    <!-- Pantalla de Perfil -->
+    <string name="conseguir_monedas">Conseguir Monedas</string>
+    <string name="canjear_monedas">Canjear Monedas</string>
+    <string name="amigos">Amigos</string>
+    <string name="recordatorio">Recordatorio</string>
+    <string name="tus_listas">Tus Listas</string>
+    <string name="insignias">Insignias</string>
+    <string name="configuracion">Configuración</string>
+
+    <!-- Sección de Filtros de Búsqueda -->
+    <string name="filtros_de_busqueda">Filtros de Búsqueda</string>
+    <string name="segun_tu_ubicacion">Según tu Ubicación</string>
+    <string name="cine">Cine</string>
+    <string name="sucursal">Sucursal</string>
+    <string name="idioma">Idioma</string>
+    <string name="tipo_de_proyeccion">Tipo de Proyección</string>
+    <string name="horario">Horario</string>
+    <string name="dia">Día</string>
+    <string name="o_mas">o más</string>
+
+    <!-- Sección de Película -->
+    <string name="datos">Datos</string>
+    <string name="director">Director</string>
+    <string name="reparto">Reparto</string>
+    <string name="trailer">Tráiler</string>
+
+    <string name="horarios">Horarios</string>
+    <string name="escribir_comentario">Escribir comentario...</string>
+
+    <string name="title_activity_menu">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

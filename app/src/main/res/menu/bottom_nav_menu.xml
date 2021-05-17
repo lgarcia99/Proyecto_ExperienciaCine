@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_inicio"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/inicio" />
+
+    <item
+        android:id="@+id/nav_cartelera"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/cartelera" />
+
+    <item
+        android:id="@+id/nav_estrenos"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/estrenos" />
+
+    <item
+        android:id="@+id/nav_cines"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/cines" />
+
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/perfil" />
+
+</menu>
