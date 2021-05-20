@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/tv_pelicula_img"
+        android:layout_width="85dp"
+        android:layout_height="113dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_pelicula_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="Pelicula"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/generos_pelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/etiqueta_genero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:padding="4dp"
+            android:text="Genero"
+            android:textSize="10sp"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/estrella_uno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_off_48x48"/>
+
+        <ImageView
+            android:id="@+id/estrella_dos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_off_48x48"
+            android:layout_toRightOf="@+id/estrella_uno"/>
+
+        <ImageView
+            android:id="@+id/estrella_tres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_off_48x48"
+            android:layout_toRightOf="@+id/estrella_dos"/>
+
+        <ImageView
+            android:id="@+id/estrella_cuatro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_off_48x48"
+            android:layout_toRightOf="@+id/estrella_tres"/>
+
+        <ImageView
+            android:id="@+id/estrella_cinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_off_48x48"
+            android:layout_toRightOf="@+id/estrella_cuatro"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -5,9 +5,73 @@
     android:layout_height="match_parent"
     tools:context=".ui.cartelera.CarteleraFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginVertical="@dimen/activity_vertical_margin"
+            android:layout_marginHorizontal="@dimen/text_horizontal_margin"
+            android:textSize="@dimen/encabezado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cartelera" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp">
+
+            <Button
+                android:id="@+id/boton_ubicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/ubicacion"
+                android:background="@drawable/rounded_button"
+                android:drawableLeft="@drawable/ubicacion_48x48"/>
+
+            <ImageButton
+                android:id="@+id/boton_busqueda"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/busqueda_48x48"
+                android:background="@color/oscuro"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:padding="6dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/boton_configuracion"/>
+
+            <ImageButton
+                android:id="@+id/boton_configuracion"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/filtros_48x48"
+                android:background="@color/oscuro"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:padding="6dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <ScrollView
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridView
+                android:id="@+id/lista_cartelera"
+                android:layout_width="match_parent"
+                android:numColumns="3"
+                android:layout_height="wrap_content">
+
+            </GridView>
+
+        </ScrollView>
+
+    </LinearLayout>
 
 </FrameLayout>

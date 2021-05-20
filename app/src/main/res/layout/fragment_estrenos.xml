@@ -5,9 +5,42 @@
     android:layout_height="match_parent"
     tools:context=".ui.estrenos.EstrenosFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginVertical="@dimen/activity_vertical_margin"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/encabezado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/proximos_estrenos" />
+
+        <Button
+            android:id="@+id/boton_ubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ubicacion"
+            android:background="@drawable/rounded_button"
+            android:drawableLeft="@drawable/ubicacion_48x48"/>
+
+        <ScrollView
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/lista_estrenos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+        </ScrollView>
+
+    </LinearLayout>
 
 </FrameLayout>
