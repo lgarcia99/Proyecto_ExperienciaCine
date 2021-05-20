@@ -29,10 +29,40 @@
                 android:text="@string/ubicacion"
                 android:drawableLeft="@drawable/ubicacion_48x48"/>
 
-            <androidx.viewpager.widget.ViewPager
+            <!--androidx.viewpager.widget.ViewPager
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pages_promociones"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"/-->
 
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/pages_promociones"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grisclaro"
+                android:orientation="vertical"
+                android:paddingBottom="25dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:paddingHorizontal="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/promociones_cerca_de_ti"
+                    android:textSize="@dimen/subtitulo"/>
+
+                <ListView
+                    android:layout_marginVertical="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grid_promociones"/>
+            </LinearLayout>
         </LinearLayout>
 
     </ScrollView>
