@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto_ExperienciaCine">
         <activity
-            android:name=".menu"
-            android:label="@string/title_activity_menu"></activity>
+            android:name=".PeliculaActivity"
+            android:label="@string/title_activity_pelicula"
+            android:theme="@style/Theme.Proyecto_ExperienciaCine.NoActionBar"></activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
